@@ -1,0 +1,3 @@
+<launch>
+    <node name="gazebo_tf_linker_node" pkg="gazebo_tf_linker" type="linker.py" output="screen"/>
+</launch>
