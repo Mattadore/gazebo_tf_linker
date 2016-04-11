@@ -31,7 +31,7 @@
 // ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-// author: Matthew Buckley
+// author: Matt Buckley
 
 #include <sstream>
 #include <gazebo/physics/physics.hh>
@@ -47,7 +47,7 @@
 #include <tf/transform_broadcaster.h>
 //#include <ar_track_alvar/ParamsConfig.h>
 #include <gazebo_msgs/LinkStates.h>
-const std::string output_frame = "base_footprint";
+const std::string output_frame = "world";
 
 using namespace std;
 
