@@ -19,7 +19,6 @@ find_package(gazebo REQUIRED)
 catkin_python_setup()
 
 catkin_package(
-  INCLUDE_DIRS include
   DEPENDS
   CATKIN_DEPENDS
         std_msgs
